@@ -32,6 +32,6 @@ Interacting with <b>Phish</b>alytics is carried out via an SSH connection in a t
 ## Services ##
 
 Service name  | Description | File
-------------- | -------------
+------------- | ------------- | ------------- 
 Twitter Stream | ... | [twitter_stream.py](https://github.com/sjbell/phishalytics/blob/master/src/twitter_stream.py "twitter_stream.py")
 Twitter Sample Stream  | Fetch a small random sample of all public tweets from Twitter's [sample stream API](https://developer.twitter.com/en/docs/tweets/sample-realtime/overview/get_statuses_sample "sample stream API") and save into local database | [twitter_stream_sample.py](https://github.com/sjbell/phishalytics/blob/master/src/twitter_stream_sample.py "twitter_stream_sample.py")
