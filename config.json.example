@@ -1,0 +1,16 @@
+{
+	"project": "phishing-lifecycle",
+	"mysql": {
+		"host": "insert_value_here",
+		"database": "insert_value_here",
+		"username": "insert_value_here",
+		"password": "insert_value_here"
+	},
+	"twitter-api": {
+		"consumer_key": "insert_value_here",
+		"consumer_secret": "insert_value_here",
+		"access_token": "insert_value_here",
+		"access_token_secret": "insert_value_here"
+	},
+	"GSBAPIKey" : "insert_value_here"
+}
