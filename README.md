@@ -28,3 +28,10 @@ Interacting with <b>Phish</b>alytics is carried out via an SSH connection in a t
 - s14: Not currently being used for the present study
 - s15: check-everything-is-working-phishing_5.py - Check everything is functioning correctly, check all feeds are live, etc. Send error notification emails to authors
 - s16: trending-hash-tags-london.py - Currently trending hashtags on Twitter for London
+
+## Services ##
+
+Service name  | Description | File
+------------- | -------------
+Twitter Stream | ... | [twitter_stream.py](https://github.com/sjbell/phishalytics/blob/master/src/twitter_stream.py "twitter_stream.py")
+Twitter Sample Stream  | Fetch a small random sample of all public tweets from Twitter's [sample stream API](https://developer.twitter.com/en/docs/tweets/sample-realtime/overview/get_statuses_sample "sample stream API") and save into local database | [twitter_stream_sample.py](https://github.com/sjbell/phishalytics/blob/master/src/twitter_stream_sample.py "twitter_stream_sample.py")
