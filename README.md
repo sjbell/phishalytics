@@ -7,7 +7,7 @@ Codebase for <b>Phish</b>alytics: the measurement infrastructure system I design
 
 Interacting with <b>Phish</b>alytics is carried out via an SSH connection in a terminal window. The server-side interface uses GNU Screen. The Screenshot above shows <b>Phish</b>alytics during one of our measurement studies. The layout consists of 18 windows; 16 small and 2 large. The two larger windows display a development area and the system monitor (<i>htop</i> command showing CPU and RAM usage, top processes, etc). The 16 smaller windows, labelled s1 to s16, contain the following:
 
-- s1:  [twitter_stream_4.1-phishing_5.py](https://github.com/sjbell/phishalytics/blob/master/src/twitter_stream.py "twitter_stream_4.1-phishing_5.py") - Twitter filter stream (tweets containing URLs). Each character in this window represents the following:
+- s1:  [twitter_stream.py](https://github.com/sjbell/phishalytics/blob/master/src/twitter_stream.py "twitter_stream.py") - Twitter filter stream (tweets containing URLs). Each character in this window represents the following:
   - <b>#</b> the tweet that is about to be processed is a retweet
   - <b>.</b> tweet received from Twitter Stream API for processing
   - <b>!</b> for each URL within this single tweet
