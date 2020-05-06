@@ -13,18 +13,18 @@ Interacting with <b>Phish</b>alytics is carried out via an SSH connection in a t
   - <b>!</b> for each URL within this single tweet
   - <b>+</b> tweet saved to our system's database
 
-- s02: Twitter sample stream (same characters as above)
-- s03: Update our local copy of GSB blacklist
-- s04: Update our local copies of PT and OP blacklists
-- s05: Fast GSB Twitter URL lookup system
-- s06: Slow (comprehensive) GSB Twitter URL lookup system
-- s07: Slow (comprehensive) OP and PT Twitter URL lookup system
-- s08: Fast OP and PT Twitter URL lookup system
-- s09: GSB timestamp lookup system
-- s10: Twitter search API lookup system
-- s11: Retrieve and save current trending hashtags from Twitter API
-- s12: Post Twitter collection processing (for metadata such as: lookup redirections chains, num URL hops, landing page URL, calculate Levenshtein distance, determine if trending hashtags used, etc)
-- s13: Calculate, update, and compare GSB sizes
+- s02: twitter_stream_sample-phishing_5.py - Twitter sample stream (same characters as above)
+- s03: update_gsb_v4.py - Update our local copy of GSB blacklist
+- s04: update_phishtank_and_openphish-phishing_5.py - Update our local copies of PT and OP blacklists
+- s05: tpl_fast_v3beta-phishing_5.py - Fast GSB Twitter URL lookup system
+- s06: tpl_v3.1-phishing_5.py - Slow (comprehensive) GSB Twitter URL lookup system
+- s07: phishing_blacklist_lookup_system_comprehensive-phishing_5.py - Slow (comprehensive) OP and PT Twitter URL lookup system
+- s08: phishing_blacklist_lookup_system_fast-phishing_5.py - Fast OP and PT Twitter URL lookup system
+- s09: lookup_gglsbl_timesamps-phishing_5.py - GSB timestamp lookup system
+- s10: twitter-search-api-lookup-phishing_5.py - Twitter search API lookup system
+- s11: trending-hash-tags-phishing_5.py - Retrieve and save current trending hashtags from Twitter API
+- s12: post-twitter-collection-processing-phishing_5.py - Post Twitter collection processing (for metadata such as: lookup redirections chains, num URL hops, landing page URL, calculate Levenshtein distance, determine if trending hashtags used, etc)
+- s13: compare_gsb_updates-phishing_5.py - Calculate, update, and compare GSB sizes
 - s14: Not currently being used for the present study
-- s15: Check everything is functioning correctly, check all feeds are live, etc. Send error notification emails to authors
-- s16: Currently trending hashtags on Twitter for London
+- s15: check-everything-is-working-phishing_5.py - Check everything is functioning correctly, check all feeds are live, etc. Send error notification emails to authors
+- s16: trending-hash-tags-london.py - Currently trending hashtags on Twitter for London
