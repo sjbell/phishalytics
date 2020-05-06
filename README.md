@@ -7,20 +7,20 @@ Codebase for <b>Phish</b>alytics: the measurement infrastructure system I design
 
 Interacting with <b>Phish</b>alytics is carried out via an SSH connection in a terminal window. The server-side interface uses GNU Screen. The Screenshot above shows <b>Phish</b>alytics during one of our measurement studies. The layout consists of 18 windows; 16 small and 2 large. The two larger windows display a development area and the system monitor (<i>htop</i> command showing CPU and RAM usage, top processes, etc). The 16 smaller windows, labelled s1 to s16, contain the following:
 
-- s01: twitter_stream_4.1-phishing_5.py - Twitter filter stream (tweets containing URLs). Each character in this window represents the following:
+- s1: twitter_stream_4.1-phishing_5.py - Twitter filter stream (tweets containing URLs). Each character in this window represents the following:
   - <b>#</b> the tweet that is about to be processed is a retweet
   - <b>.</b> tweet received from Twitter Stream API for processing
   - <b>!</b> for each URL within this single tweet
   - <b>+</b> tweet saved to our system's database
 
-- s02: twitter_stream_sample-phishing_5.py - Twitter sample stream (same characters as above)
-- s03: update_gsb_v4.py - Update our local copy of GSB blacklist
-- s04: update_phishtank_and_openphish-phishing_5.py - Update our local copies of PT and OP blacklists
-- s05: tpl_fast_v3beta-phishing_5.py - Fast GSB Twitter URL lookup system
-- s06: tpl_v3.1-phishing_5.py - Slow (comprehensive) GSB Twitter URL lookup system
-- s07: phishing_blacklist_lookup_system_comprehensive-phishing_5.py - Slow (comprehensive) OP and PT Twitter URL lookup system
-- s08: phishing_blacklist_lookup_system_fast-phishing_5.py - Fast OP and PT Twitter URL lookup system
-- s09: lookup_gglsbl_timesamps-phishing_5.py - GSB timestamp lookup system
+- s2: twitter_stream_sample-phishing_5.py - Twitter sample stream (same characters as above)
+- s3: update_gsb_v4.py - Update our local copy of GSB blacklist
+- s4: update_phishtank_and_openphish-phishing_5.py - Update our local copies of PT and OP blacklists
+- s5: tpl_fast_v3beta-phishing_5.py - Fast GSB Twitter URL lookup system
+- s6: tpl_v3.1-phishing_5.py - Slow (comprehensive) GSB Twitter URL lookup system
+- s7: phishing_blacklist_lookup_system_comprehensive-phishing_5.py - Slow (comprehensive) OP and PT Twitter URL lookup system
+- s8: phishing_blacklist_lookup_system_fast-phishing_5.py - Fast OP and PT Twitter URL lookup system
+- s9: lookup_gglsbl_timesamps-phishing_5.py - GSB timestamp lookup system
 - s10: twitter-search-api-lookup-phishing_5.py - Twitter search API lookup system
 - s11: trending-hash-tags-phishing_5.py - Retrieve and save current trending hashtags from Twitter API
 - s12: post-twitter-collection-processing-phishing_5.py - Post Twitter collection processing (for metadata such as: lookup redirections chains, num URL hops, landing page URL, calculate Levenshtein distance, determine if trending hashtags used, etc)
