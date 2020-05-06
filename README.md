@@ -45,7 +45,7 @@ Update GSB | Update our local copy of GSB blacklist | [update_gsb.py](https://gi
 
 ## Publications ##
 
-Research papers that feature results obtained with phishalytics:
+Research papers that feature results obtained with <b>Phish</b>alytics:
 
 <b>Winner of the Best Paper and Best Student Paper awards:</b><br />BELL, S., AND KOMISARCZUK, P. "Measuring the Effectiveness of Twitter’s URL Shortener (t.co) at Protecting Users from Phishing and Malware Attacks". In <i>Proceedings of the Australasian Computer Science Week Multiconference (2020)</i>. <a href="https://dl.acm.org/doi/abs/10.1145/3373017.3373019" target="_new">Link to paper.</a>
 
