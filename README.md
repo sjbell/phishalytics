@@ -2,6 +2,12 @@
 
 Codebase for <b>Phish</b>alytics: the measurement infrastructure system I designed and built to research phishing and malware attacks on Twitter during my PhD studies at Royal Holloway, University of London.
 
+## Overview ##
+
+- [Screenshot](#screenshot "Screenshot")
+- [Services](#services "Services")
+- [Publications](#publications "Publications")
+
 ## Screenshot ##
 ![phishalytics terminal screenshot](https://github.com/sjbell/phishalytics/blob/master/terminal-screenshot.png?raw=true)
 
@@ -36,3 +42,9 @@ Service name  | Description | File
 Twitter Stream |  Stream public tweets that contain URLs via Twitter's [filter stream API](https://developer.twitter.com/en/docs/tweets/filter-realtime/api-reference/post-statuses-filter "filter stream API") and save into local database |   [twitter_stream.py](https://github.com/sjbell/phishalytics/blob/master/src/twitter_stream.py "twitter_stream.py")
 Twitter Sample Stream  | Stream a small random sample of all public tweets via Twitter's [sample stream API](https://developer.twitter.com/en/docs/tweets/sample-realtime/overview/get_statuses_sample "sample stream API") and save into local database | [twitter_stream_sample.py](https://github.com/sjbell/phishalytics/blob/master/src/twitter_stream_sample.py "twitter_stream_sample.py")
 Update GSB | Update our local copy of GSB blacklist | [update_gsb.py](https://github.com/sjbell/phishalytics/blob/master/src/update_gsb.py "update_gsb.py")
+
+## Publications ##
+
+Papers featuring results obtained with phishalytics:
+
+...
