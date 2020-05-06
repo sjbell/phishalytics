@@ -13,8 +13,8 @@ Interacting with <b>Phish</b>alytics is carried out via an SSH connection in a t
   - <b>!</b> for each URL within this single tweet
   - <b>+</b> tweet saved to our system's database
 
-- s2: twitter_stream_sample-phishing_5.py - Twitter sample stream (same characters as above)
-- s3: update_gsb_v4.py - Update our local copy of GSB blacklist
+- s2: [twitter_stream_sample.py](https://github.com/sjbell/phishalytics/blob/master/src/twitter_stream_sample.py "twitter_stream_sample.py") - Twitter sample stream (same characters as above)
+- s3: [update_gsb.py](https://github.com/sjbell/phishalytics/blob/master/src/update_gsb.py "update_gsb.py") - Update our local copy of GSB blacklist
 - s4: update_phishtank_and_openphish-phishing_5.py - Update our local copies of PT and OP blacklists
 - s5: tpl_fast_v3beta-phishing_5.py - Fast GSB Twitter URL lookup system
 - s6: tpl_v3.1-phishing_5.py - Slow (comprehensive) GSB Twitter URL lookup system
