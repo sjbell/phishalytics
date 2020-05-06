@@ -1,0 +1,99 @@
+#inspired by https://superuser.com/questions/687348/how-to-persist-gnu-screen-layout-after-restart
+
+# no welcome message
+startup_message off
+
+# mouse tracking allows to switch region focus by clicking
+#mousetrack on #can't highlight text with mouse when enabled
+
+#default windows:
+
+#setup htop running at bottom right
+screen -t top 0 bash
+stuff "htop^M"
+
+#setup screens 1-16 along the top
+screen -t s1 1 bash 
+stuff "cd 2016-phishing-research^M"
+screen -t s2 2 bash
+stuff "cd 2016-phishing-research^M"
+screen -t s3 3 bash
+stuff "cd 2016-phishing-research^M"
+screen -t s4 4 bash
+stuff "cd 2016-phishing-research^M"
+screen -t s5 5 bash
+stuff "cd 2016-phishing-research^M"
+screen -t s6 6 bash
+stuff "cd 2016-phishing-research^M"
+screen -t s7 7 bash
+stuff "cd 2016-phishing-research^M"
+screen -t s8 8 bash
+stuff "cd 2016-phishing-research^M"
+screen -t s9 9 bash
+stuff "cd 2016-phishing-research^M"
+screen -t s10 10 bash
+stuff "cd 2016-phishing-research^M"
+screen -t s11 11 bash
+stuff "cd 2016-phishing-research^M"
+screen -t s12 12 bash
+stuff "cd 2016-phishing-research^M"
+screen -t s13 13 bash
+stuff "cd 2016-phishing-research^M"
+screen -t s14 14 bash
+stuff "cd 2016-phishing-research^M"
+screen -t s15 15 bash
+stuff "cd 2016-phishing-research^M"
+screen -t s16 16 bash
+stuff "cd 2016-phishing-research^M"
+
+#setup two bash screen at bottom left
+screen -t "bash1" 17
+stuff "cd 2016-phishing-research^M"
+screen -t "bash2" 18
+stuff "cd 2016-phishing-research^M"
+
+#load external layour file
+source .screen_layout
+layout save def
+
+#set top 16 screens
+select 1
+focus right
+select 2
+focus right
+select 3
+focus right
+select 4
+focus right
+select 5
+focus right
+select 6
+focus right
+select 7
+focus right
+select 8
+focus down
+select 16
+focus left
+select 15
+focus left
+select 14
+focus left
+select 13
+focus left
+select 12
+focus left
+select 11
+focus left
+select 10
+focus left
+select 9
+
+#htop
+focus down
+focus right
+select 0
+
+#main bottom left screen
+focus left
+select 17
