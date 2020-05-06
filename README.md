@@ -45,6 +45,11 @@ Update GSB | Update our local copy of GSB blacklist | [update_gsb.py](https://gi
 
 ## Publications ##
 
-Papers featuring results obtained with phishalytics:
+Research papers that feature results obtained with phishalytics:
 
-...
+<b>Winner of the Best Paper and Best Student Paper awards:</b><br />BELL, S., AND KOMISARCZUK, P. "Measuring the Effectiveness of Twitter’s URL Shortener (t.co) at Protecting Users from Phishing and Malware Attacks". In <i>Proceedings of the Australasian Computer Science Week Multiconference (2020)</i>. <a href="https://dl.acm.org/doi/abs/10.1145/3373017.3373019" target="_new">Link to paper.</a>
+
+BELL, S., AND KOMISARCZUK, P. "An Analysis of Phishing Blacklists: Google Safe Browsing, OpenPhish, and PhishTank". In <i>Proceedings of the Australasian Computer Science Week Multiconference (2020)</i>. <a href="https://dl.acm.org/doi/abs/10.1145/3373017.3373020" target="_new">Link to paper.</a>
+
+BELL, S., PATERSON, K., AND CAVALLARO, L. "Catch Me (On Time) If You Can: Understanding the Effectiveness of Twitter URL Blacklists". <i>arXiv preprint arXiv:1912.02520 (2019)</i>. <a href="https://arxiv.org/abs/1912.02520" target="_new">Link to paper.</a>
+
