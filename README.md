@@ -5,9 +5,10 @@ Codebase for <b>Phish</b>alytics: the measurement infrastructure system I design
 ## Overview ##
 
 - [Screenshot](#screenshot "Screenshot")
+- [Dependencies](#dependencies "Dependencies")
+- [Prerequisites](#prerequisites "prerequisites")
 - [Services](#services "Services")
 - [Publications](#publications "Publications")
-- [Dependencies](#dependencies "Dependencies")
 
 ## Screenshot ##
 ![phishalytics terminal screenshot](https://github.com/sjbell/phishalytics/blob/master/terminal-screenshot.png?raw=true)
@@ -38,9 +39,18 @@ The 16 smaller windows in the above screenshot, labelled s1 to s16, show the fol
 - s15: [status_monitor.py](https://github.com/sjbell/phishalytics/blob/master/src/status_monitor.py "status_monitor.py") - Check everything is functioning correctly, check all feeds are live, etc. Send error notification emails to admin
 - s16: [trending_hashtags_london.py](https://github.com/sjbell/phishalytics/blob/master/src/trending_hashtags_london.py "trending_hashtags_london.py") - Currently trending hashtags on Twitter for London
 
+
+## Prerequisites ##
+- Twitter API key
+- Google Safe Browsing API key
+- Phishtank API key
+- Openphish API key
+
+
 ## Dependencies ##
 - [gglsbl](https://github.com/afilipovich/gglsbl "ggbsbl"): Python client library for Google Safe Browsing Update API v4
 - [tweepy](https://github.com/tweepy/tweepy "tweepy"): Python client library for Twitter API 
+
 
 ## Services ##
 
