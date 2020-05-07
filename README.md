@@ -7,6 +7,7 @@ Codebase for <b>Phish</b>alytics: the measurement infrastructure system I design
 - [Screenshot](#screenshot "Screenshot")
 - [Services](#services "Services")
 - [Publications](#publications "Publications")
+- [Dependencies](#dependencies "Dependencies")
 
 ## Screenshot ##
 ![phishalytics terminal screenshot](https://github.com/sjbell/phishalytics/blob/master/terminal-screenshot.png?raw=true)
