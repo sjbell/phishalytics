@@ -53,7 +53,7 @@ Comprehensive PT and OP Twitter Lookup | Looks up all tweeted URLs in both Openp
 Fast PT and OP Twitter Lookup | Looks up all tweeted URLs in Openphish and Phishtank blacklists blacklists from past 24 hours (approx. 1 million) | [twitter_op_pt_lookup_fast.py](https://github.com/sjbell/phishalytics/blob/master/src/twitter_op_pt_lookup_fast.py "twitter_op_pt_lookup_fast.py")
 GSB Timestamp Lookup | Lookup timestamps for when URLs were added to GSB | [lookup_gsb_timestamps.py](https://github.com/sjbell/phishalytics/blob/master/src/lookup_gsb_timestamps.py "lookup_gsb_timestamps.py")
 Twitter Search API Lookup | Determine when blacklisted URLs were first tweeted using Twitter's [search API](https://developer.twitter.com/en/docs/tweets/search/api-reference/get-search-tweets "search API") | [twitter_search_api_lookup.py](https://github.com/sjbell/phishalytics/blob/master/src/twitter_search_api_lookup.py "twitter_search_api_lookup.py")
-Trending Hashtags | Retrieve and save current global trending hashtags from Twitter's [trends/place API](https://developer.twitter.com/en/docs/trends/trends-for-location/api-reference/get-trends-place "trends/place API"). Uses WOEID 1 for global location. | [trending_hashtags.py](https://github.com/sjbell/phishalytics/blob/master/src/trending_hashtags.py "trending_hashtags.py")
+Trending Hashtags | Retrieve and save current global trending hashtags from Twitter's [trends/place API](https://developer.twitter.com/en/docs/trends/trends-for-location/api-reference/get-trends-place "trends/place API"). Uses WOEID=1 for global location. | [trending_hashtags.py](https://github.com/sjbell/phishalytics/blob/master/src/trending_hashtags.py "trending_hashtags.py")
 
 
 ## Publications ##
