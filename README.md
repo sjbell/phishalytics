@@ -33,7 +33,7 @@ Interacting with <b>Phish</b>alytics is carried out via an SSH connection in a t
 - s13: [compare_gsb_updates.py](https://github.com/sjbell/phishalytics/blob/master/src/compare_gsb_updates.py "compare_gsb_updates.py") - Calculate, update, and compare GSB sizes
 - s14: Not currently being used for the present study
 - s15: [status_monitor.py](https://github.com/sjbell/phishalytics/blob/master/src/status_monitor.py "status_monitor.py") - Check everything is functioning correctly, check all feeds are live, etc. Send error notification emails to admin
-- s16: trending-hash-tags-london.py - Currently trending hashtags on Twitter for London
+- s16: [trending_hashtags_london.py](https://github.com/sjbell/phishalytics/blob/master/src/trending_hashtags_london.py "trending_hashtags_london.py") - Currently trending hashtags on Twitter for London
 
 ## Dependencies ##
 - [gglsbl](https://github.com/afilipovich/gglsbl "ggbsbl"): Python client library for Google Safe Browsing Update API v4
@@ -56,7 +56,8 @@ Twitter Search API Lookup | Determine when blacklisted URLs were first tweeted u
 Trending Hashtags | Retrieve and save current global trending hashtags from Twitter's [trends/place API](https://developer.twitter.com/en/docs/trends/trends-for-location/api-reference/get-trends-place "trends/place API"). Uses WOEID=1 for global location. | [trending_hashtags.py](https://github.com/sjbell/phishalytics/blob/master/src/trending_hashtags.py "trending_hashtags.py")
 Post Twitter Collection Processing | Computes and saves metadata such as: lookup redirections chains, num URL hops, landing page URL, calculate Levenshtein distance, determine if trending hashtags used, etc. | [post_twitter_collection_processing.py](https://github.com/sjbell/phishalytics/blob/master/src/post_twitter_collection_processing.py "post_twitter_collection_processing.py")
 Compare GSB Updates | Calculate size of GSB blacklist on each update and across versions | [compare_gsb_updates.py](https://github.com/sjbell/phishalytics/blob/master/src/compare_gsb_updates.py "compare_gsb_updates.py")
-Status Monitor | Check everything is functioning correctly, check all feeds are live, etc. Send error notification emails to admin to alert if any problem | [status_monitor.py](https://github.com/sjbell/phishalytics/blob/master/src/status_monitor.py "status_monitor.py") - 
+Status Monitor | Check everything is functioning correctly, check all feeds are live, etc. Send error notification emails to admin to alert if any problem | [status_monitor.py](https://github.com/sjbell/phishalytics/blob/master/src/status_monitor.py "status_monitor.py")
+Trending Hashtags London | Prints a list of current trending hashtags in London. Updates every 30 seconds | [trending_hashtags_london.py](https://github.com/sjbell/phishalytics/blob/master/src/trending_hashtags_london.py "trending_hashtags_london.py") - Currently trending hashtags on Twitter for London
 
 ## Publications ##
 
