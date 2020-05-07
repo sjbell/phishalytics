@@ -30,7 +30,7 @@ Interacting with <b>Phish</b>alytics is carried out via an SSH connection in a t
 - s10: [twitter_search_api_lookup.py](https://github.com/sjbell/phishalytics/blob/master/src/twitter_search_api_lookup.py "twitter_search_api_lookup.py") - Twitter search API lookup system
 - s11: [trending_hashtags.py](https://github.com/sjbell/phishalytics/blob/master/src/trending_hashtags.py "trending_hashtags.py") - Retrieve and save current trending hashtags from Twitter API
 - s12: [post_twitter_collection_processing.py](https://github.com/sjbell/phishalytics/blob/master/src/post_twitter_collection_processing.py "post_twitter_collection_processing.py") - Post Twitter collection processing (for metadata such as: lookup redirections chains, num URL hops, landing page URL, calculate Levenshtein distance, determine if trending hashtags used, etc)
-- s13: compare_gsb_updates-phishing_5.py - Calculate, update, and compare GSB sizes
+- s13: [compare_gsb_updates.py](https://github.com/sjbell/phishalytics/blob/master/src/compare_gsb_updates.py "compare_gsb_updates.py") - Calculate, update, and compare GSB sizes
 - s14: Not currently being used for the present study
 - s15: check-everything-is-working-phishing_5.py - Check everything is functioning correctly, check all feeds are live, etc. Send error notification emails to authors
 - s16: trending-hash-tags-london.py - Currently trending hashtags on Twitter for London
@@ -54,7 +54,8 @@ Fast PT and OP Twitter Lookup | Looks up all tweeted URLs in Openphish and Phish
 GSB Timestamp Lookup | Lookup timestamps for when URLs were added to GSB | [lookup_gsb_timestamps.py](https://github.com/sjbell/phishalytics/blob/master/src/lookup_gsb_timestamps.py "lookup_gsb_timestamps.py")
 Twitter Search API Lookup | Determine when blacklisted URLs were first tweeted using Twitter's [search API](https://developer.twitter.com/en/docs/tweets/search/api-reference/get-search-tweets "search API") | [twitter_search_api_lookup.py](https://github.com/sjbell/phishalytics/blob/master/src/twitter_search_api_lookup.py "twitter_search_api_lookup.py")
 Trending Hashtags | Retrieve and save current global trending hashtags from Twitter's [trends/place API](https://developer.twitter.com/en/docs/trends/trends-for-location/api-reference/get-trends-place "trends/place API"). Uses WOEID=1 for global location. | [trending_hashtags.py](https://github.com/sjbell/phishalytics/blob/master/src/trending_hashtags.py "trending_hashtags.py")
-Post Twitter Collection Processing | Computes and saves metadata such as: lookup redirections chains, num URL hops, landing page URL, calculate Levenshtein distance, determine if trending hashtags used, etc. | [post_twitter_collection_processing.py](https://github.com/sjbell/phishalytics/blob/master/src/post_twitter_collection_processing.py "post_twitter_collection_processing.py") - 
+Post Twitter Collection Processing | Computes and saves metadata such as: lookup redirections chains, num URL hops, landing page URL, calculate Levenshtein distance, determine if trending hashtags used, etc. | [post_twitter_collection_processing.py](https://github.com/sjbell/phishalytics/blob/master/src/post_twitter_collection_processing.py "post_twitter_collection_processing.py")
+Compare GSB Updates | Calculate size of GSB blacklist on each update and across versions | [compare_gsb_updates.py](https://github.com/sjbell/phishalytics/blob/master/src/compare_gsb_updates.py "compare_gsb_updates.py")
 
 ## Publications ##
 
