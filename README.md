@@ -36,8 +36,8 @@ Interacting with <b>Phish</b>alytics is carried out via an SSH connection in a t
 - s16: trending-hash-tags-london.py - Currently trending hashtags on Twitter for London
 
 ## Dependencies ##
-- gglsbl: Safe Browsing API python library
-- tweepy: Twitter API python library
+- [gglsbl](https://github.com/afilipovich/gglsbl "ggbsbl"): Python client library for Google Safe Browsing Update API v4
+- [tweepy](https://github.com/tweepy/tweepy "tweepy"): Python client library for Twitter API 
 
 ## Services ##
 
