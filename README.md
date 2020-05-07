@@ -28,7 +28,7 @@ Interacting with <b>Phish</b>alytics is carried out via an SSH connection in a t
 - s8: [twitter_op_pt_lookup_fast.py](https://github.com/sjbell/phishalytics/blob/master/src/twitter_op_pt_lookup_fast.py "twitter_op_pt_lookup_fast.py") - Fast Openphish and Phishtank tweeted URL lookup system
 - s9: [lookup_gsb_timestamps.py](https://github.com/sjbell/phishalytics/blob/master/src/lookup_gsb_timestamps.py "lookup_gsb_timestamps.py")  - GSB timestamp lookup system
 - s10: [twitter_search_api_lookup.py](https://github.com/sjbell/phishalytics/blob/master/src/twitter_search_api_lookup.py "twitter_search_api_lookup.py") - Twitter search API lookup system
-- s11: trending-hash-tags-phishing_5.py - Retrieve and save current trending hashtags from Twitter API
+- s11: [trending_hashtags.py](https://github.com/sjbell/phishalytics/blob/master/src/trending_hashtags.py "trending_hashtags.py") - Retrieve and save current trending hashtags from Twitter API
 - s12: post-twitter-collection-processing-phishing_5.py - Post Twitter collection processing (for metadata such as: lookup redirections chains, num URL hops, landing page URL, calculate Levenshtein distance, determine if trending hashtags used, etc)
 - s13: compare_gsb_updates-phishing_5.py - Calculate, update, and compare GSB sizes
 - s14: Not currently being used for the present study
@@ -52,7 +52,8 @@ Fast GSB Twitter Lookup | Looks up all tweeted URLs in GSB blacklist from past 2
 Comprehensive PT and OP Twitter Lookup | Looks up all tweeted URLs in both Openphish and Phishtank blacklists since measurement experiment began | [twitter_op_pt_lookup.py](https://github.com/sjbell/phishalytics/blob/master/src/twitter_op_pt_lookup.py "twitter_op_pt_lookup.py")
 Fast PT and OP Twitter Lookup | Looks up all tweeted URLs in Openphish and Phishtank blacklists blacklists from past 24 hours (approx. 1 million) | [twitter_op_pt_lookup_fast.py](https://github.com/sjbell/phishalytics/blob/master/src/twitter_op_pt_lookup_fast.py "twitter_op_pt_lookup_fast.py")
 GSB Timestamp Lookup | Lookup timestamps for when URLs were added to GSB | [lookup_gsb_timestamps.py](https://github.com/sjbell/phishalytics/blob/master/src/lookup_gsb_timestamps.py "lookup_gsb_timestamps.py")
-Twitter Search API Lookup | Determine when blacklisted URLs were first tweeted using Twitter's [search API](https://developer.twitter.com/en/docs/tweets/search/api-reference/get-search-tweets "search API") | [twitter_search_api_lookup.py](https://github.com/sjbell/phishalytics/blob/master/src/twitter_search_api_lookup.py "twitter_search_api_lookup.py") - 
+Twitter Search API Lookup | Determine when blacklisted URLs were first tweeted using Twitter's [search API](https://developer.twitter.com/en/docs/tweets/search/api-reference/get-search-tweets "search API") | [twitter_search_api_lookup.py](https://github.com/sjbell/phishalytics/blob/master/src/twitter_search_api_lookup.py "twitter_search_api_lookup.py")
+Trending Hashtags | Retrieve and save current global trending hashtags from Twitter's [trends/place API](https://developer.twitter.com/en/docs/trends/trends-for-location/api-reference/get-trends-place "trends/place API"). Uses WOEID 1 for global location. | [trending_hashtags.py](https://github.com/sjbell/phishalytics/blob/master/src/trending_hashtags.py "trending_hashtags.py")
 
 
 ## Publications ##
