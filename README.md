@@ -22,10 +22,10 @@ Interacting with <b>Phish</b>alytics is carried out via an SSH connection in a t
 - s2: [twitter_stream_sample.py](https://github.com/sjbell/phishalytics/blob/master/src/twitter_stream_sample.py "twitter_stream_sample.py") - Twitter sample stream (same characters as above)
 - s3: [update_gsb.py](https://github.com/sjbell/phishalytics/blob/master/src/update_gsb.py "update_gsb.py") - Update our local copy of GSB blacklist
 - s4: [update_phishtank_and_openphish.py](https://github.com/sjbell/phishalytics/blob/master/src/update_phishtank_and_openphish.py "update_phishtank_and_openphish.py") - Update our local copies of PT and OP blacklists
-- s5: [twitter_gsb_lookup_fast.py](https://github.com/sjbell/phishalytics/blob/master/src/twitter_gsb_lookup_fast.py "twitter_gsb_lookup_fast.py") - Fast Twitter GSB URL lookup system
-- s6: [twitter_gsb_lookup.py](https://github.com/sjbell/phishalytics/blob/master/src/twitter_gsb_lookup.py "twitter_gsb_lookup.py") - Comprehensive Twitter GSB URL lookup system
-- s7: phishing_blacklist_lookup_system_comprehensive-phishing_5.py - Slow (comprehensive) OP and PT Twitter URL lookup system
-- s8: phishing_blacklist_lookup_system_fast-phishing_5.py - Fast OP and PT Twitter URL lookup system
+- s5: [twitter_gsb_lookup_fast.py](https://github.com/sjbell/phishalytics/blob/master/src/twitter_gsb_lookup_fast.py "twitter_gsb_lookup_fast.py") - Fast Google Safe Browsing tweeted URL lookup system
+- s6: [twitter_gsb_lookup.py](https://github.com/sjbell/phishalytics/blob/master/src/twitter_gsb_lookup.py "twitter_gsb_lookup.py") - Comprehensive Google Safe Browsing tweeted URL lookup system
+- s7: [twitter_op_pt_lookup.py](https://github.com/sjbell/phishalytics/blob/master/src/twitter_op_pt_lookup.py "twitter_op_pt_lookup.py") - Comprehensive Openphish and Phishtank tweeted URL lookup system
+- s8: [twitter_op_pt_lookup_fast.py](https://github.com/sjbell/phishalytics/blob/master/src/twitter_op_pt_lookup_fast.py "twitter_op_pt_lookup_fast.py") - Fast Openphish and Phishtank tweeted URL lookup system
 - s9: lookup_gglsbl_timesamps-phishing_5.py - GSB timestamp lookup system
 - s10: twitter-search-api-lookup-phishing_5.py - Twitter search API lookup system
 - s11: trending-hash-tags-phishing_5.py - Retrieve and save current trending hashtags from Twitter API
@@ -35,6 +35,10 @@ Interacting with <b>Phish</b>alytics is carried out via an SSH connection in a t
 - s15: check-everything-is-working-phishing_5.py - Check everything is functioning correctly, check all feeds are live, etc. Send error notification emails to authors
 - s16: trending-hash-tags-london.py - Currently trending hashtags on Twitter for London
 
+## Dependencies ##
+- gglsbl: Safe Browsing API python library
+- tweepy: Twitter API python library
+
 ## Services ##
 
 Service name  | Description | File
@@ -43,8 +47,10 @@ Twitter Stream |  Stream public tweets that contain URLs via Twitter's [filter s
 Twitter Sample Stream  | Stream a small random sample of all public tweets via Twitter's [sample stream API](https://developer.twitter.com/en/docs/tweets/sample-realtime/overview/get_statuses_sample "sample stream API") and save into local database | [twitter_stream_sample.py](https://github.com/sjbell/phishalytics/blob/master/src/twitter_stream_sample.py "twitter_stream_sample.py")
 Update GSB | Update our local copy of GSB blacklist using [Safe Browsing Update API (v4)](https://developers.google.com/safe-browsing/v4/update-api "Safe Browsing Update API (v4)") | [update_gsb.py](https://github.com/sjbell/phishalytics/blob/master/src/update_gsb.py "update_gsb.py")
 Update Phishtank and Openphish | Update our local copies of [Openphish](https://openphish.com/ "Openphish") and [Phishtank](https://www.phishtank.com/ "Phishtank") blacklists | [update_phishtank_and_openphish.py](https://github.com/sjbell/phishalytics/blob/master/src/update_phishtank_and_openphish.py "update_phishtank_and_openphish.py")
-Comprehensive Twitter GSB Lookup | Looks up all tweeted URLs in GSB blacklist since measurement experiment began. Gets progresively slower as experiment duration increases | [twitter_gsb_lookup.py](https://github.com/sjbell/phishalytics/blob/master/src/twitter_gsb_lookup.py "twitter_gsb_lookup.py")
-Fast Twitter GSB Lookup | Looks up all tweeted URLs in GSB blacklist from past 24 hours (approx. 1 million) | [twitter_gsb_lookup_fast.py](https://github.com/sjbell/phishalytics/blob/master/src/twitter_gsb_lookup_fast.py "twitter_gsb_lookup_fast.py")
+Comprehensive GSB Twitter Lookup | Looks up all tweeted URLs in GSB blacklist since measurement experiment began. Gets progresively slower as experiment duration increases | [twitter_gsb_lookup.py](https://github.com/sjbell/phishalytics/blob/master/src/twitter_gsb_lookup.py "twitter_gsb_lookup.py")
+Fast GSB Twitter Lookup | Looks up all tweeted URLs in GSB blacklist from past 24 hours (approx. 1 million) | [twitter_gsb_lookup_fast.py](https://github.com/sjbell/phishalytics/blob/master/src/twitter_gsb_lookup_fast.py "twitter_gsb_lookup_fast.py")
+Comprehensive PT and OP Twitter Lookup | Looks up all tweeted URLs in both Openphish and Phishtank blacklists since measurement experiment began | [twitter_op_pt_lookup.py](https://github.com/sjbell/phishalytics/blob/master/src/twitter_op_pt_lookup.py "twitter_op_pt_lookup.py")
+Fast PT and OP Twitter Lookup | Looks up all tweeted URLs in Openphish and Phishtank blacklists blacklists from past 24 hours (approx. 1 million) | [twitter_op_pt_lookup_fast.py](https://github.com/sjbell/phishalytics/blob/master/src/twitter_op_pt_lookup_fast.py "twitter_op_pt_lookup_fast.py")
 
 ## Publications ##
 
