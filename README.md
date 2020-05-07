@@ -54,6 +54,8 @@ The 16 smaller windows in the above screenshot, labelled s1 to s16, show the fol
 
 ## Services ##
 
+### Core ###
+Core services used to run the main measurement study experiments:
 Service name  | Description | File
 ------------- | ------------- | ------------- 
 Twitter Stream |  Stream public tweets that contain URLs via Twitter's [filter stream API](https://developer.twitter.com/en/docs/tweets/filter-realtime/api-reference/post-statuses-filter "filter stream API") and save into local database |   [twitter_stream.py](https://github.com/sjbell/phishalytics/blob/master/src/twitter_stream.py "twitter_stream.py")
@@ -71,6 +73,14 @@ Post Twitter Collection Processing | Computes and saves metadata such as: lookup
 Compare GSB Updates | Calculate size of GSB blacklist on each update and across versions | [compare_gsb_updates.py](https://github.com/sjbell/phishalytics/blob/master/src/compare_gsb_updates.py "compare_gsb_updates.py")
 Status Monitor | Check everything is functioning correctly, check all feeds are live, etc. Send error notification emails to admin to alert if any problem | [status_monitor.py](https://github.com/sjbell/phishalytics/blob/master/src/status_monitor.py "status_monitor.py")
 Trending Hashtags London | Prints a list of currently trending hashtags in London. Updates every 30 seconds | [trending_hashtags_london.py](https://github.com/sjbell/phishalytics/blob/master/src/trending_hashtags_london.py "trending_hashtags_london.py") - Currently trending hashtags on Twitter for London
+
+### Experimental ###
+Services being tested that have not yet been used for measurement experiments:
+
+Service name  | Description | File
+------------- | ------------- | ------------- 
+Test Name | Test description... | test_file.py
+
 
 ## Publications ##
 
