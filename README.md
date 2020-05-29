@@ -75,7 +75,7 @@ Status Monitor | Check everything is functioning correctly, check all feeds are 
 Trending Hashtags London | Prints a list of currently trending hashtags in London, UK. Updates every 30 seconds | [trending_hashtags_london.py](https://github.com/sjbell/phishalytics/blob/master/src/trending_hashtags_london.py "trending_hashtags_london.py")
 
 ### Other ###
-Other services / experiments being tested:
+Other services / experimental setups / tests:
 
 Service name  | Description | File
 ------------- | ------------- | ------------- 
