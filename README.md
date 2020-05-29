@@ -54,8 +54,8 @@ The 16 smaller windows in the above screenshot, labelled s1 to s16, show the fol
 
 ## Services ##
 
-### Core ###
-Core services used to run the main measurement study experiments:
+### Core Services ###
+Used to run the main measurement study experiments:
 Service name  | Description | File
 ------------- | ------------- | ------------- 
 Twitter Stream |  Stream public tweets that contain URLs via Twitter's [filter stream API](https://developer.twitter.com/en/docs/tweets/filter-realtime/api-reference/post-statuses-filter "filter stream API") and save into local database |   [twitter_stream.py](https://github.com/sjbell/phishalytics/blob/master/src/twitter_stream.py "twitter_stream.py")
@@ -74,12 +74,13 @@ Compare GSB Updates | Calculate size of GSB blacklist on each update and across 
 Status Monitor | Check everything is functioning correctly, check all feeds are live, etc. Send error notification emails to admin to alert if any problem | [status_monitor.py](https://github.com/sjbell/phishalytics/blob/master/src/status_monitor.py "status_monitor.py")
 Trending Hashtags London | Prints a list of currently trending hashtags in London, UK. Updates every 30 seconds | [trending_hashtags_london.py](https://github.com/sjbell/phishalytics/blob/master/src/trending_hashtags_london.py "trending_hashtags_london.py")
 
-### Other ###
-Other services / experimental setups / tests:
+### Other Serices ###
+Experimental setups, tests, etc:
 
 Service name  | Description | File
 ------------- | ------------- | ------------- 
 ASCII Text | Used at ISG open day stall to showcase my measurement infrastructure. Displays ASCII text of project title and authors in main GNU screen window, whilst experiments ran in other windows. Requires [asciimatics](https://github.com/peterbrittain/asciimatics) | [ascii_text.py](https://github.com/sjbell/phishalytics/blob/master/src/other/ascii_text.py)
+Bityl Click Stats | Leverages the [Bitly API](https://dev.bitly.com/) to access click stats for Bitly URLs collected via Twitter's Stream API | [bitly_click_stats.py](https://github.com/sjbell/phishalytics/blob/master/src/other/bitly_click_stats.py)
 
 
 ## Publications ##
