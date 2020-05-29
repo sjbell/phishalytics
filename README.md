@@ -1,3 +1,5 @@
+N.B.: I'm currently going through, organising, and tidying my code as I upoad it. So this repo's still a work-in-progress which I'm updating (reasonably) regularly
+
 # Phishalytics #
 
 Codebase for <b>Phish</b>alytics: the measurement infrastructure system I designed and built to research phishing and malware attacks on Twitter during my PhD studies at Royal Holloway, University of London.
