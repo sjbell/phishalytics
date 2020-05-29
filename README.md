@@ -88,6 +88,7 @@ CertStream | Leverages [CertStream-Python](https://github.com/CaliDog/certstream
 CertStream Blacklist URL Lookup | Check existing dataset of potentially suspicious SSL domain certificates for blacklist membership | [certstream_blacklist_url_lookup.py](https://github.com/sjbell/phishalytics/blob/master/src/other/certstream_blacklist_url_lookup.py)
 Compare GSB URL Hash Prefixes | Compares URL hash prefixes in GSB blacklist to determine hash collisions and unique URL hashes | [compare_gsb_hash_prefixes.py](https://github.com/sjbell/phishalytics/blob/master/src/other/compare_gsb_hash_prefixes.py)
 Compare T.co to Blacklists | Used to count total number of blocked t.co URLs that also appear in GSB, OP, or PT | [compare_t_co_to_blacklists.py](https://github.com/sjbell/phishalytics/blob/master/src/other/compare_t_co_to_blacklists.py)
+Count Num Domains | Count (and extract) total domain names in tweeted URLs dataset | [count_num_domains.py](https://github.com/sjbell/phishalytics/blob/master/src/other/count_num_domains.py)
 
 
 ## Publications ##
