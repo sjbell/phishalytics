@@ -72,7 +72,7 @@ Trending Hashtags | Retrieve and save current global trending hashtags from Twit
 Post Twitter Collection Processing | Computes and saves metadata such as: lookup redirections chains, num URL hops, landing page URL, calculate Levenshtein distance, determine if trending hashtags used, etc. | [post_twitter_collection_processing.py](https://github.com/sjbell/phishalytics/blob/master/src/post_twitter_collection_processing.py "post_twitter_collection_processing.py")
 Compare GSB Updates | Calculate size of GSB blacklist on each update and across versions | [compare_gsb_updates.py](https://github.com/sjbell/phishalytics/blob/master/src/compare_gsb_updates.py "compare_gsb_updates.py")
 Status Monitor | Check everything is functioning correctly, check all feeds are live, etc. Send error notification emails to admin to alert if any problem | [status_monitor.py](https://github.com/sjbell/phishalytics/blob/master/src/status_monitor.py "status_monitor.py")
-Trending Hashtags London | Prints a list of currently trending hashtags in London. Updates every 30 seconds | [trending_hashtags_london.py](https://github.com/sjbell/phishalytics/blob/master/src/trending_hashtags_london.py "trending_hashtags_london.py") - Currently trending hashtags on Twitter for London
+Trending Hashtags London | Prints a list of currently trending hashtags in London, UK. Updates every 30 seconds | [trending_hashtags_london.py](https://github.com/sjbell/phishalytics/blob/master/src/trending_hashtags_london.py "trending_hashtags_london.py")
 
 ### Other ###
 Other services / experiments being tested:
