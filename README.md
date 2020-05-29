@@ -81,7 +81,8 @@ Service name  | Description | File
 ------------- | ------------- | ------------- 
 ASCII Text | Used at ISG open day stall to showcase my measurement infrastructure. Displays ASCII text of project title and authors in main GNU screen window, whilst experiments ran in other windows. Requires [asciimatics](https://github.com/peterbrittain/asciimatics) | [ascii_text.py](https://github.com/sjbell/phishalytics/blob/master/src/other/ascii_text.py)
 Bityl Click Stats | Leverages the [Bitly API](https://dev.bitly.com/) to access click stats for Bitly URLs collected via Twitter's Stream API | [bitly_click_stats.py](https://github.com/sjbell/phishalytics/blob/master/src/other/bitly_click_stats.py)
-CertStream | Leverages [CertStream-Python](https://github.com/CaliDog/certstream-python/) (library to see SSL certs as they're issued live) to create a dataset of potentially suspicious SSL domain certificates. For later verification with cerstream_url_checker.py | [certstream.py](https://github.com/sjbell/phishalytics/blob/master/src/other/certstream.py)
+CertStream | Leverages [CertStream-Python](https://github.com/CaliDog/certstream-python/) (library to see SSL certs as they're issued live) to create a dataset of potentially suspicious SSL domain certificates. For later verification with [certstream_blacklist_url_lookup.py](https://github.com/sjbell/phishalytics/blob/master/src/other/certstream_blacklist_url_lookup.py) | [certstream.py](https://github.com/sjbell/phishalytics/blob/master/src/other/certstream.py)
+CertStream Blacklist URL Lookup | Check existing dataset of potentially suspicious SSL domain certificates for blacklist membership | [certstream_blacklist_url_lookup.py](https://github.com/sjbell/phishalytics/blob/master/src/other/certstream_blacklist_url_lookup.py)
 
 
 ## Publications ##
