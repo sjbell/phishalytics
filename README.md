@@ -86,6 +86,7 @@ ASCII Text | Used at ISG open day stall to showcase my measurement infrastructur
 Bityl Click Stats | Leverages the [Bitly API](https://dev.bitly.com/) to access click stats for Bitly URLs collected via Twitter's Stream API | [bitly_click_stats.py](https://github.com/sjbell/phishalytics/blob/master/src/other/bitly_click_stats.py)
 CertStream | Leverages [CertStream-Python](https://github.com/CaliDog/certstream-python/) (library to see SSL certs as they're issued live) to create a dataset of potentially suspicious SSL domain certificates. For later verification with [certstream_blacklist_url_lookup.py](https://github.com/sjbell/phishalytics/blob/master/src/other/certstream_blacklist_url_lookup.py) | [certstream.py](https://github.com/sjbell/phishalytics/blob/master/src/other/certstream.py)
 CertStream Blacklist URL Lookup | Check existing dataset of potentially suspicious SSL domain certificates for blacklist membership | [certstream_blacklist_url_lookup.py](https://github.com/sjbell/phishalytics/blob/master/src/other/certstream_blacklist_url_lookup.py)
+Compare GSB URL Hash Prefixes | Compares URL hash prefixes in GSB blacklist to determine hash collisions and unique URL hashes | [compare_gsb_hash_prefixes.py](https://github.com/sjbell/phishalytics/blob/master/src/other/compare_gsb_hash_prefixes.py)
 
 
 ## Publications ##
