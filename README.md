@@ -43,10 +43,11 @@ The 16 smaller windows in the above screenshot, labelled s1 to s16, show the fol
 
 
 ## Prerequisites ##
-- Twitter API key
-- Google Safe Browsing API key
-- Phishtank API key
-- Openphish API key
+- Twitter API key ([dev site](https://developer.twitter.com/apps))
+- Google Safe Browsing API key ([dev site](https://developers.google.com/safe-browsing/v4/get-started))
+- Phishtank API key ([dev site](https://www.phishtank.com/api_info.php))
+- Openphish API key ([dev site](https://openphish.com/phishing_feeds.html))
+- Bitly API key ([dev site](https://dev.bitly.com))
 
 
 ## Dependencies ##
