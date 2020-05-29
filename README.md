@@ -79,7 +79,7 @@ Other services / experimental setups / tests:
 
 Service name  | Description | File
 ------------- | ------------- | ------------- 
-ASCII Text | Used at an ISG open day stall to showcase my measurement infrastructure. Displays ASCII text of project title and authors in main GNU screen window, whilst experiments ran in other windows. Requires [asciimatics](https://github.com/peterbrittain/asciimatics) | [ascii_text.py](https://github.com/sjbell/phishalytics/blob/master/src/other/ascii_text.py)
+ASCII Text | Used at ISG open day stall to showcase my measurement infrastructure. Displays ASCII text of project title and authors in main GNU screen window, whilst experiments ran in other windows. Requires [asciimatics](https://github.com/peterbrittain/asciimatics) | [ascii_text.py](https://github.com/sjbell/phishalytics/blob/master/src/other/ascii_text.py)
 
 
 ## Publications ##
