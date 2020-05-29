@@ -77,8 +77,8 @@ Compare GSB Updates | Calculate size of GSB blacklist on each update and across 
 Status Monitor | Check everything is functioning correctly, check all feeds are live, etc. Send error notification emails to admin to alert if any problem | [status_monitor.py](https://github.com/sjbell/phishalytics/blob/master/src/status_monitor.py "status_monitor.py")
 Trending Hashtags London | Prints a list of currently trending hashtags in London, UK. Updates every 30 seconds | [trending_hashtags_london.py](https://github.com/sjbell/phishalytics/blob/master/src/trending_hashtags_london.py "trending_hashtags_london.py")
 
-### Other Serices ###
-Experimental setups, tests, etc:
+### Other Services ###
+Experimental setups, tests, supporting system, etc:
 
 Service name  | Description | File
 ------------- | ------------- | ------------- 
