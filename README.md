@@ -74,12 +74,12 @@ Compare GSB Updates | Calculate size of GSB blacklist on each update and across 
 Status Monitor | Check everything is functioning correctly, check all feeds are live, etc. Send error notification emails to admin to alert if any problem | [status_monitor.py](https://github.com/sjbell/phishalytics/blob/master/src/status_monitor.py "status_monitor.py")
 Trending Hashtags London | Prints a list of currently trending hashtags in London. Updates every 30 seconds | [trending_hashtags_london.py](https://github.com/sjbell/phishalytics/blob/master/src/trending_hashtags_london.py "trending_hashtags_london.py") - Currently trending hashtags on Twitter for London
 
-### Experimental ###
-Services being tested that have not yet been used for measurement experiments:
+### Other ###
+Other services / experiments being tested:
 
 Service name  | Description | File
 ------------- | ------------- | ------------- 
-Test Name | Test description... | test_file.py
+ASCII Text | Used at an ISG open day stall to showcase my measurement infrastructure. Displays ASCII text of project title and authors in main GNU screen window, whilst experiments ran in other windows | [ascii_text.py](https://github.com/sjbell/phishalytics/blob/master/src/other/ascii_text.py)
 
 
 ## Publications ##
