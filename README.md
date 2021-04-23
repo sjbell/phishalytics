@@ -4,7 +4,8 @@ N.B.: I'm currently going through, organising, and tidying my code as I upoad it
 
 Codebase for <b>Phish</b>alytics: the measurement infrastructure system I designed and built to research phishing and malware attacks on Twitter during my PhD studies at Royal Holloway, University of London.
 
-## Overview ##
+## Contents ##
+- [Overview](#overview "Overview")
 - [Design Architecture](#design-architecture "Design Archiecture")
 - [Screenshot](#screenshot "Screenshot")
 - [Dependencies](#dependencies "Dependencies")
@@ -12,6 +13,9 @@ Codebase for <b>Phish</b>alytics: the measurement infrastructure system I design
 - [Services](#services "Services")
 - [Publications](#publications "Publications")
 
+## Overview ##
+Measurement system I built during my PhD to collect and analyse large-scale datasets; including phishing and malware attacks on Twitter, blacklist characterisation, and phishing detection capabilities of web browsers. 
+ 
 ## Design Architecture ##
 ![design architecture for phishalytics](https://github.com/sjbell/phishalytics/blob/master/architecture_diagram.png?raw=true)
 
