@@ -7,13 +7,14 @@ Codebase for <b>Phish</b>alytics: the measurement infrastructure system I design
 ## Overview ##
 
 - [Screenshot](#screenshot "Screenshot")
+- [Design Archiecture](#design_architecture "Design Archiecture")
 - [Dependencies](#dependencies "Dependencies")
 - [Prerequisites](#prerequisites "prerequisites")
 - [Services](#services "Services")
 - [Publications](#publications "Publications")
 
 ## Design Archiecture ##
-![phishalytics terminal screenshot](https://github.com/sjbell/phishalytics/blob/master/architecture_diagram.png?raw=true)
+![design architecture for phishalytics](https://github.com/sjbell/phishalytics/blob/master/architecture_diagram.png?raw=true)
 
 ## Screenshot ##
 ![phishalytics terminal screenshot](https://github.com/sjbell/phishalytics/blob/master/terminal-screenshot.png?raw=true)
