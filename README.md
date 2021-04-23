@@ -7,7 +7,7 @@ Codebase for <b>Phish</b>alytics: the measurement infrastructure system I design
 ## Overview ##
 
 - [Screenshot](#screenshot "Screenshot")
-- [Design Archiecture](#design_architecture "Design Archiecture")
+- [Design Archiecture](#design-architecture "Design Archiecture")
 - [Dependencies](#dependencies "Dependencies")
 - [Prerequisites](#prerequisites "prerequisites")
 - [Services](#services "Services")
