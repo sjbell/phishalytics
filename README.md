@@ -12,6 +12,9 @@ Codebase for <b>Phish</b>alytics: the measurement infrastructure system I design
 - [Services](#services "Services")
 - [Publications](#publications "Publications")
 
+## Design Archiecture ##
+![phishalytics terminal screenshot](https://github.com/sjbell/phishalytics/blob/master/architecture_diagram.png?raw=true)
+
 ## Screenshot ##
 ![phishalytics terminal screenshot](https://github.com/sjbell/phishalytics/blob/master/terminal-screenshot.png?raw=true)
 
